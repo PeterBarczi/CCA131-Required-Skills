@@ -298,6 +298,9 @@ hdfs crypto -createZone -keyName myKey -path /zone
 # chown it to the normal user
 hadoop fs -chown myuser:myuser /zone
 
+# verify as the superuser
+hdfs dfs crypto -listZones
+
 # As the normal user, put a file in, read it out
 hadoop fs -put helloWorld /zone
 hadoop fs -cat /zone/helloWorld
