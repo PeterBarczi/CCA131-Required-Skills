@@ -305,6 +305,7 @@ hdfs dfs crypto -listZones
 hadoop fs -put helloWorld /zone
 hadoop fs -cat /zone/helloWorld
 ```
+More: https://docs.cloudera.com/HDPDocuments/HDP3/HDP-3.1.5/configuring-hdfs-encryption/content/create_an_encryption_zone.html
 
 ## Test
 Benchmark the cluster operational metrics, test system configuration for operation and efficiency
